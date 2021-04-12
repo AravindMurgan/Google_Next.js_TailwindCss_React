@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Avatar from '../components/Avatar/Avatar';
+import Avatar from './components/Avatar/Avatar';
 
 export default function Home() {
 	return (
