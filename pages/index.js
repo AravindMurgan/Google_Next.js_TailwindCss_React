@@ -7,18 +7,18 @@ export default function Home() {
 				<title>Create Next App</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<h1>Hello Next.js</h1>
-			{/* Header */}
-			<header>
-				{/* Left-side */}
-				<div className=''>
-        <p>About</p>
-        <p>Store</p>
 
-        </div>
+
+			{/* Header */}
+			<header className='flex justify-between p-5'>
+				{/* Left-side */}
+				<div className='flex space-x-4 items-center'>
+					<p>About</p>
+					<p>Store</p>
+				</div>
 
 				{/* Right-side */}
-				<div className=''>
+				<div className='flex space-x-4 items-center'>
 					<p>Gmail</p>
 					<p>Images</p>
 
