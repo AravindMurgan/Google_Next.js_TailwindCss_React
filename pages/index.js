@@ -7,6 +7,8 @@ export default function Home() {
 				<title>Create Next App</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
+      <h1>Hello Next.js</h1>
 		</div>
+    
 	);
 }
