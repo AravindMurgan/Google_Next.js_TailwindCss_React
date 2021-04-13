@@ -44,7 +44,11 @@ export default function Home() {
 
 				<div>
 					<SearchIcon 
-					className='h-10 w-10 text-gray-100'
+					className='h-5 mr-3  text-gray-500'
+					/>
+					<input type="text" className='focus:outline-none' />
+					<MicrophoneIcon 
+					className='h-5 mr-3  text-gray-500'
 					/>
 
 				</div>
