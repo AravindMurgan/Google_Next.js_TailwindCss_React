@@ -2,17 +2,18 @@ import Head from 'next/head';
 import Avatar from './components/Avatar/Avatar';
 import {MicrophoneIcon,SearchIcon,ViewGridIcon} from '@heroicons/react/solid';
 import Image from 'next/image';
+import Footer from './components/Footer/Footer';
 
 export default function Home() {
 	return (
-		<div className='flex flex-col justify-center items-center d:' >
+		<div className='flex flex-col justify-center items-center box-border h-screen relative' >
 			<Head>
 				<title>Create Next App</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
 			{/* Header */}
-			<header className='flex w-full justify-between p-5 text-sm text-gray-700'>
+			<header className='flex w-full justify-between p-5 text-sm text-gray-700 absolute top-0 '>
 				{/* Left-side */}
 				<div className='flex space-x-4 items-center'>
 					<p className='link'>About</p>
@@ -62,9 +63,7 @@ export default function Home() {
 			</form>
 
 			{/* Footer */}
-			<div className="">
-				<p>India</p>
-			</div>
+			<Footer/>
 		</div>
 	);
 }
