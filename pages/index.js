@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Home() {
 	return (
-		<div className='flex flex-col justify-center item-center ' >
+		<div className='flex flex-col justify-center items-center d:' >
 			<Head>
 				<title>Create Next App</title>
 				<link rel='icon' href='/favicon.ico' />
@@ -34,7 +34,7 @@ export default function Home() {
 			</header>
 
 			{/* Body */}
-			<form className='flex flex-col items-center mt-44 w-4/5' >
+			<form className='flex flex-col items-center mt-40 w-4/5' >
 				<Image
 				src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'
 				width={272}
