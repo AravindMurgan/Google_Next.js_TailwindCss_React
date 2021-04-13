@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Avatar from './components/Avatar/Avatar';
 import {MicrophoneIcon,ViewGridIcon} from '@heroicons/react/solid';
+import Image from 'next/image';
 
 export default function Home() {
 	return (
@@ -20,7 +21,7 @@ export default function Home() {
 
 				{/* Right-side */}
 				<div className='flex space-x-4 items-center'>
-					<p className='link'>Gmail</p>
+					<p className='link'>Gmail</p> 
 					<p className='link'>Images</p>
 
 					{/* Icon */}
@@ -33,6 +34,10 @@ export default function Home() {
 			</header>
 
 			{/* Body */}
+			<form>
+				<Image />
+
+			</form>
 
 			{/* Footer */}
 		</div>
