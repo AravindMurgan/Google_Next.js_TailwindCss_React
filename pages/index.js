@@ -35,7 +35,12 @@ export default function Home() {
 
 			{/* Body */}
 			<form>
-				<Image />
+				<Image
+				src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'
+				width={272}
+				height={92}
+				className='flex justify-center al'
+				/>
 
 			</form>
 
