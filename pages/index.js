@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Avatar from './components/Avatar/Avatar';
-import {MicrophoneIcon,ViewGridIcon} from '@heroicons/react/solid';
+import {MicrophoneIcon,SearchIcon,ViewGridIcon} from '@heroicons/react/solid';
 import Image from 'next/image';
 
 export default function Home() {
@@ -42,6 +42,12 @@ export default function Home() {
 				className='flex justify-center al'
 				/>
 
+				<div>
+					<SearchIcon 
+					className='h-10 w-10 text-gray-100'
+					/>
+
+				</div>
 			</form>
 
 			{/* Footer */}
